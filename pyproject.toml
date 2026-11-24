@@ -13,4 +13,5 @@ packages = ["src/cv_core"]
 [dependency-groups]
 dev = [
     "pytest>=9.2.0",
+    "ruff>=0.17.6",
 ]
