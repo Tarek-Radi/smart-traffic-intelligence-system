@@ -85,11 +85,11 @@ Generic foundation features merge into `foundation/cv-core`; traffic-specific fe
 - [x] M0.4 Configure `.gitignore` for environments, secrets, and artifacts.
 - [x] M0.5 Commit uv environment configuration.
 - [x] M0.6 Add roadmap/progress file to repository and commit it.
-- [ ] M0.7 Verify README clone/sync/smoke-check instructions work from a clean checkout. (README exists; validation pending.)
+- [x] M0.7 Verify README clone/sync/smoke-check instructions work from a clean checkout. (README exists; validation pending.)
 - [x] M0.8 Configure `pytest` and Ruff; run smoke tests, lint, and format validation.
 - [x] M0.9 Create minimal `src/cv_core/` and `tests/` package/test layout.
 - [x] M0.10 Verify final remote push and confirm remote `main` remains unchanged. (Foundation push confirmed previously; final push reported.)
-- [ ] M0.11 Complete exit review, record M0 checkpoint, and verify a clean working tree.
+- [x] M0.11 Complete exit review, record M0 checkpoint, and verify a clean working tree.
 
 **Deliverable:** Installable reusable foundation, automated smoke test, reproducible setup instructions.  
 **Evaluation:** `uv sync`, import check, `uv run pytest -v`, `uv run ruff check .`, `uv run ruff format --check .`, clean Git state.
