@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and model artifacts
+data/raw/
+data/processed/
+*.pt
+*.pth
+*.onnx
+
+# Generated outputs
+outputs/
+runs/
+
+# Raw datasets and videos
+data/raw/
+
+# Processed data and generated outputs
+data/processed/
+outputs/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
