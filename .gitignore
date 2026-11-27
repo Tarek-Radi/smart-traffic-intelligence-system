@@ -26,3 +26,16 @@ data/processed/
 # Generated outputs
 outputs/
 runs/
+
+# Raw datasets and videos
+data/raw/
+
+# Processed data and generated outputs
+data/processed/
+outputs/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
